@@ -10,8 +10,7 @@ This isn’t just a code dump — it’s a growing library of ideas I’ve explo
 ✨ Scripts that do something **surprising** or **unusual**  
 🧠 Smart use of built-in Python features  
 🎯 Focused mini-projects with real logic and clean code  
-🛠️ Useful, fun, or just plain odd experiments  
-📚 Each file tells a story — what it does, and what I learned
+🛠️ Useful, fun, or just plain odd experiments 
 
 ---
 
@@ -22,7 +21,6 @@ I wanted a space to:
 - 🎓 **Learn by building**, not just watching or reading
 - 🧪 Try weird stuff in Python and see what happens
 - 📝 Keep track of the cool things I discover along the way
-- 📤 Share code that might inspire or teach others too
 
 Whether it’s a fun automation, an ASCII art generator, or a tiny tool with unexpected behavior — if it makes me think *“Whoa, that’s neat”*, it goes here.
 
