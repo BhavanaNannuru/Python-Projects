@@ -1,0 +1,23 @@
+Here's how you can generate and use a requirements.txt file for your python scripts:
+
+1. Install the pipreqs
+    pip install pipreqs
+2. Naviagte to the project folder
+    cd path_to_folder
+3. Run the command
+    pireqs .
+4. requirements.txt file is generated
+
+
+How to use this file in the future??
+
+Command:
+pip install -r requirements.txt 
+
+Limitations:
+pipreqs works on directories, not on individual .py files directly.
+Work around:
+Create a temporary folder and place the file in it.
+run the pipreqs now.
+
+
