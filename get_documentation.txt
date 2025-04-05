@@ -1,0 +1,27 @@
+Here's how you can generate and use pdocs to automatically create documentation for your Python scripts from docstrings and comments:
+
+1. Install pdocs
+    pip install pdocs  
+2. Navigate to the project folder
+    cd path_to_folder  
+3. Run the command
+    pdocs render your_script_name.py --output-dir docs --overwrite  
+4. Documentation is generated inside the docs folder
+
+How to view this documentation in the future??
+
+Open the generated .html file in your browser manually
+OR
+Use command:
+    open docs/your_script_name.html         # macOS  
+    xdg-open docs/your_script_name.html     # Linux  
+    start docs\your_script_name.html        # Windows  
+
+Limitations:
+pdocs works best with modules or packages, not with one-off scripts that are not structured as importable modules.
+
+Workaround:
+Put the .py file inside a folder
+Optionally, add __init__.py to treat it as a module
+Then run:
+    pdocs render your_module_name  
